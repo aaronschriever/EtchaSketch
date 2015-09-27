@@ -4,3 +4,14 @@
 	height: 960px;
 
 }
+
+#no_of_squares_btn
+{
+float: right;
+padding-right: 50px;
+
+}
+.red
+{
+	background-color: #FF4136;
+}
