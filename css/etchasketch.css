@@ -1,17 +1,27 @@
+#border
+{position: relative;
+margin: 0 auto;
+	width:  800px;
+	height: 800px;
+	background-color: #AAA;
+border-radius: 10px;
+}
 #container
-{
-	width: 960px;
-	height: 960px;
+{position: relative;
+	margin: 0 auto;
+	top:100px; 
+	width:  600px;
+	height: 600px;
+	
+	
 
 }
-
+#current_color{
+float: right;	
+}
 #no_of_squares_btn
 {
 float: right;
 padding-right: 50px;
 
-}
-.red
-{
-	background-color: #FF4136;
 }

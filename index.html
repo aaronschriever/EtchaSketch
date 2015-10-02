@@ -6,13 +6,18 @@
 	
 </head>
 <body>
+<div id="current_color"></div>
 <div id="no_of_squares_btn">
-	<button name="clear_canvas" class="clear" onclick="clear(); return false;">Clear canvas
-	</button>
+	<button name="clear_canvas" class="clear" onclick="default_boxes(); return false;">Clear canvas</button>
+
 </div>
+<div id="tint_btn">
+<button name="tint_canvas" class="clear" onclick="tint_boxes(); return false;">tint canvas</button>
+</div>
+<div id= "border">
 <div id="container">	
 </div>
-
+</div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 <script src="JS/etchasketch.js"></script>
